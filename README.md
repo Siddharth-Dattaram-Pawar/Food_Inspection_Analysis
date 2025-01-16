@@ -6,12 +6,12 @@
 
 ## **Project Description :**
 
-1. Conducted extensive Data profiling and Data Staging using Alteryx, to meticulously analyze data from 2 SORs to produce in-depth findings
-2. Implemented a Dimensional Model using ER Studio that depicted sophisticated Star-Schema based Data Architecture (tailored for intricate Business Intelligence (BI) queries) and also created OLAP cubes on Microsoft SQL Server
-3. Staged, Cleansed and Transformed data by ensuring 3NF form using Talend ETL tool
-4. Orchestrated Talend ETL jobs ; utilizing contexts, settings, and metadata-driven links to integrate data from diverse data sources comprising of JSON, CSV files etc.
-5. For effective interpretation and presentation of data, we employed real-time PowerBI and Tableau dashboards encompassing significant KPIs and wrote SQL validation queries for all BI questions, ensuring accuracy through a meticulous comparison with the generated visuals
-
+1. Conducted extensive Data profiling using YData Profiling & Alteryx Designer, to meticulously analyze data from 2 SORs to produce in-depth findings along with an intricated mapping document
+2. Implemented a Star-Schema based Dimensional Model (tailored for intricate Business Intelligence (BI) queries) using ER Studio emphasizing a Slowly Changing Dimension Type 2 and audit columns ; for data precision and historical traceability 
+3. Talend ETL tool was instrumental in Staging the data in OLTP cubes of Microsoft SQL Server.
+4. Orchestrated Talend ETL jobs ; utilizing contexts, settings, and metadata-driven links to integrate data from diverse data sources (such as MySQL tables, JSON files and CSVs) , clean the integrated data and then transform it as per preprocessing requirements.
+5. Post ingesting transformed data, we employed real-time PowerBI and Tableau dashboards encompassing significant KPIs and wrote SQL validation queries for all BI questions : for effective interpretation and presentation of data and ensuring accuracy through a meticulous comparison with the generated visuals.
+   
 ## **Architecture Diagram**:
 
 ![image](https://github.com/user-attachments/assets/70b4167d-dd16-41b3-8b7c-9ffe6f6ccd38)
